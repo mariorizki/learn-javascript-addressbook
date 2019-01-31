@@ -6,7 +6,7 @@ const addressBook = {
     contacts.forEach(function(contact) {
       console.log(
         `
-        name : ${contact.name}, 
+        Name : ${contact.name}, 
         Address: ${contact.address}, 
         Profession: ${contact.profession}
         `
